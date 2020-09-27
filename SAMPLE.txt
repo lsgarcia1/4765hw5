@@ -1,1 +1,26 @@
+Sample Input:
 
+Hello WorLD!!!  TREE./,';. liST ./,'; rEcUrSiOn    ez
+
+
+Sample Output:
+
+Enter a string:
+Hello WorLD!!!  TREE./,';. liST ./,'; rEcUrSiOn    ez
+Sanitized String:
+helloworldtreelistrecursionez
+There was a greater than 5% mismatch for: a
+The standard english frequency for: a is: 8.12
+The frequency of: a in the string is: 0
+
+There was a greater than 5% mismatch for: e
+The standard english frequency for: e is: 12.02
+The frequency of: e in the string is: 17.2414
+
+There was a greater than 5% mismatch for: l
+The standard english frequency for: l is: 3.98
+The frequency of: l in the string is: 13.7931
+
+There was a greater than 5% mismatch for: r
+The standard english frequency for: r is: 6.02
+The frequency of: r in the string is: 13.7931
