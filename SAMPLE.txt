@@ -7,8 +7,10 @@ Sample Output:
 
 Enter a string:
 Hello WorLD!!!  TREE./,';. liST ./,'; rEcUrSiOn    ez
+
 Sanitized String:
 helloworldtreelistrecursionez
+
 There was a greater than 5% mismatch for: a
 The standard english frequency for: a is: 8.12
 The frequency of: a in the string is: 0
