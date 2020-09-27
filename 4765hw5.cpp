@@ -7,7 +7,7 @@ int main()
 {
 	string input;
 	cout << "Enter a string" << endl;
-    getline(cin, input);
+        getline(cin, input);
 	
 	for (int i = 0, len = input.size(); i < len; i++)
 	{
