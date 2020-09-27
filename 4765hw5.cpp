@@ -1,3 +1,7 @@
+//Leonardo Garcia and Hannah Tippin
+//Computer Security
+//Homework 5
+
 #include <iostream>
 #include <string>
 
@@ -35,7 +39,7 @@ int main()
 		
 	}
 
-	cout << "Sanitized String: \n" << input << endl;//outputs satitized string
+	cout << "\nSanitized String: \n" << input << endl;//outputs satitized string
 
 	for (int i = 0; i < 26; i++)//compares letter frequency and outputs on any mismatches
 	{
@@ -45,9 +49,9 @@ int main()
 
 		if (freq > upperBound || freq < lowerBound)//checks if the calculated freq is within 5% of the standard english freq
 		{
-			cout << "There was a greater than 5% mismatch for: " << char(i + 'a') << endl;
+			cout << "\nThere was a greater than 5% mismatch for: " << char(i + 'a') << endl;
 			cout << "The standard english frequency for: "<< char(i + 'a') << " is: " << charFreq[i] << endl;
-			cout << "The frequency of: " << char(i + 'a') << " in the string is: " << freq << endl << endl;
+			cout << "The frequency of: " << char(i + 'a') << " in the string is: " << freq << endl;
 		}
 	}
 
